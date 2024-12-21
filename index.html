@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Responsive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="fav icon.png" type="image/x-icon">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Imagen de Fondo -->
+    <div class="background-image"></div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <img src="fav icon.png" alt="Logo">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Contenedor de Inicio de Sesión -->
+    <div id="login-container" class="login-container">
+        <img src="fav icon.png" alt="Logo">
+        <h3>Iniciar Sesión</h3>
+        <form action="/login.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre de usuario" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" required>
+            <button type="submit">INICIAR SESION</button>
+        </form>
+        <p class="register-link">¿Aún no te has registrado?<br><br><a href="Registro.php">Regístrate aquí</a></p>
+    </div>
+
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
